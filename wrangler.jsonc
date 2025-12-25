@@ -1,0 +1,11 @@
+{
+  "name": "testsite",
+  "main": "worker.js",
+  "compatibility_date": "2025-12-25",
+  "kv_namespaces": [
+    { "binding": "CLICKS", "id": "clicks" }
+  ],
+  "assets": {
+    "directory": "."
+  }
+}

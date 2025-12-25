@@ -1,8 +1,24 @@
+<!DOCTYPE html>
 <html>
 <head>
-
+    
 </head>
 <body>
     <h1>Test1</h1>
+    <h2>Data Loaded from data.txt</h2>
+
+    <pre id="output">Loading...</pre>
+
+    <script>
+        fetch('data.txt')
+            .then(response => response.text())
+            .then(text => {
+                document.getElementById('output').textContent = text;
+            })
+            .catch(err => {
+                document.getElementById('output').textContent = 'Error loading data.txt';
+                console.error(err);
+            });
+    </script>
 </body>
 </html>

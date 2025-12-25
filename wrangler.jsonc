@@ -5,14 +5,12 @@
   
   "assets": {
     "directory": "."
-  }
+  },
+  
   "kv_namespaces": [
     {
       "binding": "CLICKS",
       "id": "8fb83919ddbd45ba894ef30bc6e1cd6c"
     }
-  ],
-  "assets": {
-    "directory": "."
-  }
+  ]
 }

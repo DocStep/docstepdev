@@ -2,13 +2,17 @@
   "name": "docstepdev",
   "main": "worker.js",
   "compatibility_date": "2025-12-25",
+  
   "assets": {
     "directory": "."
   }
   "kv_namespaces": [
     {
-      "binding": "clicks",
+      "binding": "CLICKS",
       "id": "8fb83919ddbd45ba894ef30bc6e1cd6c"
     }
-  ]
+  ],
+  "assets": {
+    "directory": "."
+  }
 }
